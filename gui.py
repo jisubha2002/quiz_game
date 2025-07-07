@@ -39,23 +39,7 @@ button.place(x=60,y=440,height=50,width=380)
 m.mainloop()
 '''
 
-'''import random
-import string
-n=int(input("put the length of password:"))
-s=string.ascii_lowercase + string.ascii_uppercase +string.digits 
-print(s)
-passwd ="".join(random.choice(s) for i in range(n))
-print("password is ", passwd)
-'''
-'''import speech_recognition as sr
-r= sr.Recognizer()
-with  sr.Microphone() as  s:
-    print("speeaking")
-    audio = r.listen(s)
-    t=r.recognize_google(audio)
-    print("you said ",t)
 
-    '''
 import tkinter
 import speedtest
 
