@@ -15,7 +15,7 @@ fig = px.choropleth(
     locationmode = 'country names',
     color = 'values',
     color_continuous_scale = 'Inferno',
-    title = f"world map  {country}"
+    title = f"the map of  {country}"
 )
 
 fig.show()
