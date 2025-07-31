@@ -1,0 +1,10 @@
+[
+    {
+        "title": "python lan. course",
+        "author": "er",
+        "isbn": "1233",
+        "copies": 2,
+        "available": 2,
+        "checked_out": []
+    }
+]
